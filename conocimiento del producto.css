@@ -1,0 +1,209 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #737373 0%, #D4D4D8 100%);
+    color: #1e293b;
+    line-height: 1.7;
+}
+
+.contenedor {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.header {
+    background: linear-gradient:(135deg, #2563eb 0%, #1d4ed8 100%);
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem 3rem;
+    box-shadow: 0 10px 30px rgba(37, 99, 235, 0.15);
+}
+
+.header h1 {
+    font-size: 25px;
+    font-weight: 11200px;
+}
+
+.principal {
+    padding: 48px 0;
+}
+
+.seccion {
+    margin-bottom: 4rem;
+}
+
+.grid-cards {
+    display: grid;
+    gap: 23px;
+}
+
+@media (min-width: 768px) {
+    .grid-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e2e8f0;
+    position: relative;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(37, 99, 235, 0.18);
+}
+
+.card-numero {
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    background: #2563eb;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    box-shadow: 0 6px 15px rgba(37, 99, 235, 0.3);
+}
+
+.card h2 {
+    color: rgb(165, 127, 255);
+    margin-bottom: 1.2rem;
+    font-size: 1.6rem;
+}
+
+.card p, .card ul {
+    color: #334155;
+    font-size: 1.05rem;
+}
+
+.card ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.card ul li {
+    margin-bottom: 0.9rem;
+    padding-left: 1.6rem;
+    position: relative;
+}
+
+.card ul li::before {
+    content: "→";
+    color: ;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.beneficios h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    color:#1e40af;
+    margin-bottom: 2.5rem;
+}
+
+.grid-beneficios {
+    display: grid;
+    gap: 1.4rem;
+}
+
+@media (min-width: 640px) {
+    .grid-beneficios {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .grid-beneficios {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.beneficio-item {
+    background: white;
+    padding: 1.6rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.07);
+    border-left: 5px solid #3b82f6;
+    transition: all 0.25s ease;
+}
+
+.beneficio-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 30px rgba(59, 130, 246, 0.15);
+}
+
+.beneficio-item strong {
+    color:  rgb(165, 127, 255);
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.15rem;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: center;
+    gap: 1.8rem;
+    flex-wrap: wrap;
+    margin: 3.5rem 0 4rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.btn-primario {
+    background: #2563eb;
+    color: white;
+}
+
+.btn-primario:hover {
+    background: #1d4ed8;
+}
+
+.btn-secundario {
+    background: #6b7280;
+    color: white;
+}
+
+.btn-secundario:hover {
+    background: #4b5563;
+}
+
+.footer {
+    background: #1e293b;
+    color: #cbd5e1;
+    text-align: end;
+    padding: 32px 16px;
+    font-size: 0.95rem;
+    margin-top: 2rem;
+}

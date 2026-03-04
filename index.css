@@ -1,0 +1,72 @@
+body{
+    background-color:#f4f6f9 /* color de mi findo de pantalla*/
+}
+
+
+header{
+  background-color:linear-gradient(90deg, #0077ff, #00c6ff) ;
+  color=white;
+  text-align: center;
+  padding: 40px 20px;
+
+
+}
+
+header h1{
+  margin: 0;
+}
+
+ .indice { background-color: #f4f4f4;
+   padding: 20px;
+    margin: 30px auto;
+    border-radius: 8px; width: 60%; 
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2); } 
+
+
+.indice 
+h2 { text-align: center; 
+  margin-bottom: 15px; } 
+  
+  .indice
+   ul { 
+    list-style: none;
+     padding: 0;
+     } 
+     
+     
+     .indice 
+     ul 
+     li { margin: 10px 0; } 
+     
+     
+     .indice 
+     ul 
+     li a 
+     { text-decoration: none; 
+      color: white; 
+      font-weight: bold; 
+      transition: color 0.3s;
+        background-color:#D6D3D1;
+    color:white
+    padding: 30px;
+    border-radius: 15px 20px;
+    max-width: 900px
+  
+     } 
+     
+     
+     .indice 
+     ul 
+     li a:hover {
+     color: #007BFF;
+    }
+
+   
+
+    
+
+section{
+  padding: 20px;
+  margin:40px auto;
+  mask-border-width: 900px;
+}

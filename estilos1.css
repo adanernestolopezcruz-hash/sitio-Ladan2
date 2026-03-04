@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(215, 218, 250);
+
+}
+h1{
+    border-style:double ;
+    background-color: aquamarine;
+}
+h2{
+    border-style: groove;
+    background-color: bisque;
+}
