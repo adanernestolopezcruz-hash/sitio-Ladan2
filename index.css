@@ -70,3 +70,15 @@ section{
   margin:40px auto;
   mask-border-width: 900px;
 }
+
+
+
+.footer {
+    background: #1e293b;
+    color: #cbd5e1;
+    text-align: end;
+    padding: 32px 16px;
+    font-size: 0.95rem;
+    margin-top: 2rem;
+}
+
