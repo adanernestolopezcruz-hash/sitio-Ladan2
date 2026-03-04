@@ -73,6 +73,57 @@ section{
 
 
 
+a{
+    text-decoration: none;
+    border-style: none;
+    text-decoration-color: antiquewhite;
+}
+
+
+
+.navegacion {
+    display: flex;
+    justify-content: center;
+    gap: 1.8rem;
+    flex-wrap: wrap;
+    margin: 3.5rem 0 4rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.btn-primario {
+    background: #2563eb;
+    color: white;
+}
+
+.btn-primario:hover {
+    background: #1d4ed8;
+}
+
+.btn-secundario {
+    background: #6b7280;
+    color: white;
+}
+
+.btn-secundario:hover {
+    background: #4b5563;
+}
+
+
 .footer {
     background: #1e293b;
     color: #cbd5e1;
