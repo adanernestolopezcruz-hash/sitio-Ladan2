@@ -1,13 +1,15 @@
 body{
-    background-color:#f4f6f9 /* color de mi findo de pantalla*/
+background-color: #f9fafb /* color de mi findo de pantalla*/
+ color:#111827;
+
 }
 
 
 header{
-  background-color:linear-gradient(90deg, #0077ff, #00c6ff) ;
-  color=white;
+  background-color:#1e40af ;
+  color:white;
   text-align: center;
-  padding: 65px 16px 64;
+   padding: 56px 16px 64px
 
 
 }
@@ -124,13 +126,29 @@ a{
 }
 
 
-.footer {
-    background: #1e293b;
-    color: #cbd5e1;
-    text-align: end;
-    padding: 32px 16px;
-    font-size: 0.95rem;
-    margin-top: 2rem;
+
+.contacto {
+    text-align: center;
+    padding: 3.5rem 1rem;
+    background: #f1f5f9;
 }
 
+.contacto h2 {
+    color: #1e40af;
+    margin-bottom: 1.2rem;
+    font-size: 1.7rem;
+}
+
+.contacto p {
+    font-size: 1.25rem;
+}
+
+
+footer {  
+  background: #111827;
+    color: #9ca3af;
+    text-align: center;
+    padding: 2.2rem 1rem;
+    font-size: 0.98rem;}
+    
 
